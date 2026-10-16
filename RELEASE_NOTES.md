@@ -1,6 +1,22 @@
 # Release notes · Reading (reading.mcbflow.com)
 
-Newest first. One entry per release, in plain words a user would understand. The full technical log is in CHANGELOG.md, and the same notes show in the app under Settings & Help › Release notes.
+Newest first. One entry per release, in plain words a user would understand. The full technical log is in CHANGELOG.md, and the same notes show in the app under Help › Release notes.
+
+## 1.5 · 2026-10-16
+- New Settings page (gear icon): Appearance (theme, book typeface, darker PDF pages), Account & sync, Reading settings (goals, Daily Review), Backup & data, Install and About. Help (question-mark icon) now has its own page with the how-to, keyboard shortcuts, release notes, privacy and terms.
+- Today is now called Home, with a "Good morning" greeting (with your name when you're signed in). Old links to Today still work.
+- Account button in the top bar: Sign in, or your profile picture with a small sync dot. Edit profile lets you pick a screen name and one of the profile pictures; every mcbflow.com app shows the same one. New "Keep me signed in on this device" option: turn it off and the sign-in ends when you close the browser.
+- Same welcome screen as the other mcbflow.com apps: what Reading does, pick a look, set your goals, add your first book (or sign in, or import a backup).
+- Clearer Data menu: every item says what it's best for, in the same order as the other apps. Export All (ZIP) keeps its format and now also holds a spreadsheet copy of your library.
+- Book covers open full size inside the app (tap the cover on a book's page). PDFs, EPUBs and audiobooks still open in Reading's own reader.
+- Backup reminders stay quiet while you're signed in and syncing.
+- Charts on Home and Stats show a label when you hover, tap or tab to a bar or day, with gridlines and a dashed line for your goal.
+- Logging pages or minutes, or turning to a new page in the reader, moves a To Read book to Reading by itself (a short message says so; change it back on the book's page). Finished books stay Finished.
+- Every button in the top bar is the same height; Log reading is the one main button and Add book is a plain button next to Undo. The name now reads "Reading ∙ mcbflow.com".
+- The sample book, Reading Out Loud, is rewritten for this version: the new address, Home, sync and the Data menu.
+- Fixed a rare error when leaving the reader in the middle of a page turn (Book mode).
+
+Internal build 3.10.0.
 
 ## 1.4 · October 15, 2026
 - Optional free mcbflow.com account: sign in from Settings or the Data menu → Sync across devices to keep your books, progress, notes, quotes, Daily Review and reading history the same on your phone and computer. Without an account, everything works as before and nothing leaves your device.
@@ -10,7 +26,7 @@ Newest first. One entry per release, in plain words a user would understand. The
 Internal build 3.9.0.
 
 ## 1.3 · October 14, 2026
-- Moved to reading.mcbflow.com. Data saved at mbreading.online doesn't carry over: export a backup there and import it here.
+- Moved to reading.mcbflow.com. Data saved at the old address doesn't carry over: export a backup there and import it here.
 - Storage names simplified.
 
 Internal build 3.8.0.

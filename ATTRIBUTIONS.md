@@ -1,6 +1,6 @@
-# mbreading.online – third-party credits and licenses
+# reading.mcbflow.com – third-party credits and licenses
 
-mbreading.online is an independent project. It is not affiliated with or endorsed by any company or project listed here.
+reading.mcbflow.com is an independent project. It is not affiliated with or endorsed by any company or project listed here.
 
 ## Code served with the app (`vendor/` folder)
 

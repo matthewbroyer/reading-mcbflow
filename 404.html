@@ -26,7 +26,8 @@ a:focus-visible{outline:2px solid var(--accent);outline-offset:2px;border-radius
 header{width:min(720px,100% - 32px);margin:0 auto;padding:20px 0 0}
 .brand{display:inline-flex;align-items:center;gap:10px;color:var(--ink);text-decoration:none;font-weight:650;font-size:16px}
 .brand svg{width:34px;height:34px;flex:none;border-radius:8px}
-.brand i{font-style:normal;color:var(--accent)}
+.brand i{font-style:normal;font-weight:400;color:var(--accent)}
+.brand .sep{margin:0 .32em 0 .34em;color:var(--accent);font-weight:700}
 main{flex:1;width:min(720px,100% - 32px);margin:18px auto 24px}
 .card{position:relative;overflow:hidden;background:var(--surface);border:1px solid var(--border);border-radius:8px;
  box-shadow:0 1px 2px rgba(20,24,31,.06),0 12px 32px -18px rgba(20,24,31,.28);padding:28px 28px 0}
@@ -53,15 +54,15 @@ footer a{color:var(--muted);text-decoration:none}footer a:hover{color:var(--acce
 </head>
 <body>
 <div class="bar"></div>
-<header><a class="brand" href="/"><svg aria-hidden="true" focusable="false" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64"><defs><linearGradient id="mbre-g1" gradientUnits="userSpaceOnUse" x1="10" y1="0" x2="54" y2="64"><stop offset="0" stop-color="#9a5e8c"/><stop offset=".55" stop-color="#8A4479"/><stop offset="1" stop-color="#6e3661"/></linearGradient><clipPath id="mbre-c1"><rect width="64" height="64" rx="18"/></clipPath></defs><g clip-path="url(#mbre-c1)"><rect width="64" height="64" fill="url(#mbre-g1)"/><path d="M31 22.5C26 19 18.5 18 11.5 19.3v23.5c7-1.3 14.5-.3 19.5 3.2z" fill="#fff"/><path d="M33 22.5c5-3.5 12.5-4.5 19.5-3.2v23.5c-7-1.3-14.5-.3-19.5 3.2z" fill="#fff"/>
-<path d="M40 19.4V31.5l3.2-2.4 3.2 2.4V19" fill="#F2B640"/></g></svg><span>reading<i>.mcbflow.com</i></span></a></header>
+<header><a class="brand" href="/" aria-label="Reading (reading.mcbflow.com): go to Home"><svg aria-hidden="true" focusable="false" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64"><defs><linearGradient id="mbre-g1" gradientUnits="userSpaceOnUse" x1="10" y1="0" x2="54" y2="64"><stop offset="0" stop-color="#9a5e8c"/><stop offset=".55" stop-color="#8A4479"/><stop offset="1" stop-color="#6e3661"/></linearGradient><clipPath id="mbre-c1"><rect width="64" height="64" rx="18"/></clipPath></defs><g clip-path="url(#mbre-c1)"><rect width="64" height="64" fill="url(#mbre-g1)"/><path d="M31 22.5C26 19 18.5 18 11.5 19.3v23.5c7-1.3 14.5-.3 19.5 3.2z" fill="#fff"/><path d="M33 22.5c5-3.5 12.5-4.5 19.5-3.2v23.5c-7-1.3-14.5-.3-19.5 3.2z" fill="#fff"/>
+<path d="M40 19.4V31.5l3.2-2.4 3.2 2.4V19" fill="#F2B640"/></g></svg><span>Reading<i class="tld"><span class="sep" aria-hidden="true">∙</span>mcbflow.com</i></span></a></header>
 <main>
 <div class="card">
 <span class="code"><b>404</b><i aria-hidden="true">·</i>Page not found</span>
 <h1>This page isn’t here</h1>
 <p>The link may be old or mistyped. Anything you’ve saved in Reading is still in this browser; this page didn’t change it.</p>
 <div class="actions">
-<a class="btn primary" href="/">Go to Today</a>
+<a class="btn primary" href="/">Go to Home</a>
 <a class="btn" href="https://mcbflow.com/">mcbflow.com</a>
 </div>
 <svg class="art" viewBox="0 0 640 136" preserveAspectRatio="xMaxYMax slice" aria-hidden="true" focusable="false"><circle class="b" cx="560" cy="46" r="26"/><path class="s" d="M210 150 C315 80 525 80 630 150Z"/><path class="m" d="M410 150 C485 66 635 66 710 150Z"/><path class="d" d="M530 150 C585 90 695 90 750 150Z"/><path class="n" transform="translate(470 98) rotate(-64) scale(0.5)" d="M0 0 C 20 -34 66 -40 96 -6 C 70 28 22 34 0 0Z"/><path class="d" transform="translate(480 98) rotate(-116) scale(0.4)" d="M0 0 C 20 -34 66 -40 96 -6 C 70 28 22 34 0 0Z"/><circle class="r" cx="360" cy="44" r="6"/></svg>
