@@ -1,0 +1,76 @@
+<!doctype html>
+<html lang="en" data-mb-app="reading">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Reading | Privacy</title>
+<meta name="description" content="How reading.mcbflow.com handles your data: what stays in your browser and what, if anything, leaves it.">
+<link rel="canonical" href="https://reading.mcbflow.com/privacy.html">
+<meta name="theme-color" content="#8a4479">
+<meta name="referrer" content="no-referrer">
+<link rel="icon" href="favicon.svg" type="image/svg+xml">
+<link rel="icon" href="favicon.ico" sizes="48x48">
+<script src="/mb-ui.js"></script><!-- applies the saved Light | Dark choice before first paint -->
+<style>
+:root{--font:"Segoe UI Variable Text","Segoe UI",system-ui,-apple-system,Roboto,Arial,sans-serif;--bg:#f3f4f6;--surface:#fff;--ink:#1b1f24;--ink-2:#48505c;--muted:#5f6773;--border:#dfe2e7;--accent:#8a4479;--accent-hover:#723668;--r:6px;--on:#fff}
+:root[data-theme="dark"]{color-scheme:dark;--bg:#16181c;--surface:#1e2126;--ink:#e9ecf0;--ink-2:#b4bbc5;--muted:#98a1ad;--border:#30353c;--accent:#cf8fbf;--accent-hover:#ddaad0;--on:#230b1e}
+*{box-sizing:border-box}
+body{margin:0;font:16px/1.6 var(--font);color:var(--ink);background:linear-gradient(170deg,color-mix(in srgb,var(--accent) 8%,var(--bg)) 0,var(--bg) 320px) no-repeat,var(--bg)}
+.bar{height:6px;background:var(--accent)}
+header{max-width:760px;margin:0 auto;padding:20px 16px 0;display:flex;align-items:center;gap:12px}
+header a.brand{display:flex;align-items:center;gap:10px;color:var(--ink);text-decoration:none;font-weight:650}
+header a.brand img{width:32px;height:32px}
+header a.brand .sep{margin:0 .34em;color:var(--accent);font-weight:700}
+header a.brand .tld{font-style:normal;font-weight:400;color:var(--accent)}
+header a.brand:focus-visible,a:focus-visible{outline:2px solid var(--accent);outline-offset:2px;border-radius:4px}
+main{max-width:760px;margin:16px auto 48px;padding:24px 20px;background:var(--surface);border:1px solid var(--border);border-radius:var(--r);overflow-wrap:anywhere}
+h1{font-size:28px;line-height:1.2;margin:0 0 4px;letter-spacing:-.01em}
+h2{font-size:18px;margin:28px 0 6px}
+h4{font-size:16px;margin:22px 0 4px}
+p,li{color:var(--ink-2)} li{margin:4px 0} .meta{color:var(--muted);font-size:14px;margin:0 0 16px}
+a{color:var(--accent)} a:hover{color:var(--accent-hover)}
+code{font-size:.92em;background:color-mix(in srgb,var(--accent) 8%,transparent);padding:1px 5px;border-radius:4px}
+.back{display:inline-flex;align-items:center;min-height:40px;padding:0 14px;margin-top:24px;border-radius:var(--r);background:var(--accent);color:var(--on);text-decoration:none;font-weight:600}
+.back:hover{background:var(--accent-hover);color:var(--on)}
+footer{max-width:760px;margin:0 auto 32px;padding:0 16px;color:var(--muted);font-size:14px}
+</style>
+</head>
+<body>
+<div class="bar"></div>
+<header><a class="brand" href="./" aria-label="Reading (reading.mcbflow.com): open the app"><img src="favicon.svg" alt="" width="32" height="32"><span>Reading<span class="sep" aria-hidden="true">∙</span><i class="tld">mcbflow.com</i></span></a></header>
+<main>
+<h1>Privacy</h1>
+<p class="meta">Last updated October 13, 2026</p>
+<p><b>Short version:</b> reading.mcbflow.com has no analytics, ads or cookies, and you don't need an account. Your books, files, notes and reading history stay in this browser. If you choose to sign in to sync, your books, notes, quotes and reading history (never your files) are also kept in your mcbflow.com account.</p>
+              <h2>What's saved on your device</h2>
+              <ul>
+                <li><b>localStorage (“reading”):</b> your library list, reading sessions, notes, quotes (with their notes, questions and Daily Review schedule), ratings, goals and app settings.</li>
+                <li><b>localStorage (“reading.reader”):</b> reader display and player settings, your read-aloud pronunciations, and when you last made a backup.</li>
+                <li><b>Browser database (IndexedDB, named “reading.library”):</b> the PDF, EPUB and audio files you add (text, Markdown and web page files are stored as EPUBs), their covers, your place in each, bookmarks and bookmark notes, text recognized from scanned pages, and a text index of your books once you use Search inside books.</li>
+                <li><b>Offline copy of the app (browser cache):</b> a service worker keeps a copy of this app's own files (its code, icons, the PDF engine and the page-flip library, and the text-recognition files once you've used them) so it opens with no signal. It holds no books, files, notes or history.</li>
+                <li><b>Browser database (IndexedDB, named “reading.backup”):</b> if you choose where backups are saved, your browser's permission to update those backup files. It holds no copy of your data, and the page never sees the folder path.</li>
+              </ul>
+              <p>This stays until you delete it: delete a book or its file from the book's page, use <b>Clear all data…</b> in the Data menu or Settings, or clear this site's data in your browser settings. <b>Save backup now</b> and <b>Export All</b> save copies to files on your device, and <b>Import Backup</b> brings them back.</p>
+              <h2>What leaves your device</h2>
+              <ul>
+                <li><b>Book search:</b> when you use “Find a book”, only the words you type are sent to Open Library (openlibrary.org, run by the non-profit Internet Archive). Cover images load from covers.openlibrary.org. If you paste your own cover image URL when editing a book, that image loads from the site you pasted. Your library, notes and history are never sent.</li>
+                <li><b>Share images:</b> the Share buttons (on your streak, a finished book and Stats) draw a picture on this device. It goes nowhere unless you save it or send it with your device's share menu. Book titles are left off unless you turn them on.</li>
+                <li><b>Code:</b> the PDF engine (PDF.js), its font and character files, the page-flip library and the text-recognition engine (Tesseract) with its English data are served from this site itself, not from another company's servers.</li>
+                <li><b>Text recognition</b> of scanned pages, <b>Search inside books</b>, highlights, Daily Review and Markdown exports all run on your device. Page images and book text are never uploaded.</li>
+                <li><b>Read aloud:</b> voices listed under “On this device” run locally. Voices listed under “Online” send the text being read to the company that provides the voice (for example Google or Microsoft), under that company's terms. An on-device voice is picked by default when there is one.</li>
+                <li><b>Optional sync:</b> if you sign in with a free mcbflow.com account (Settings › Account &amp; sync, or the Data menu), your books (titles, authors, status, progress, ratings, notes, quotes with their notes, questions and Daily Review schedule, cover links) and reading sessions, plus your daily, yearly and Daily Review goals, are copied to your account so your other devices match. <b>Your PDF, EPUB and audio files are never uploaded</b>; they stay on the device you added them on, along with their covers, your place in them, bookmarks, reader settings and theme. The account database is run by Supabase (servers in the eastern United States); only your account can read your records. Signing out stops syncing and keeps everything on this device. Export or delete your synced data, or delete your account, on the <a href="https://mcbflow.com/account.html" target="_blank" rel="noopener">mcbflow.com account page</a>; more detail is in the <a href="https://mcbflow.com/#privacy" target="_blank" rel="noopener">mcbflow.com privacy policy</a>.</li>
+                <li><b>The website host</b> may keep standard request logs (IP address, browser type, time of visit), as nearly every website does.</li>
+                <li><b>Links inside books</b> open in a new tab only when you click them. Images that a book or saved web page links to on other websites are not loaded.</li>
+              </ul>
+              <h2>Selling, sharing and your choices</h2>
+              <p>reading.mcbflow.com doesn't sell or share personal information and doesn't use it for advertising. Unless you sign in to sync, the developer never receives your data, so they can't view, recover or delete it for you. Use the delete, backup and restore controls instead (and the account page for synced data). Don't store passwords or other highly sensitive information in notes.</p>
+              <h2>Children</h2>
+              <p>reading.mcbflow.com is a general-audience tool, not directed at children under 13. Accounts are optional and are for people 13 and older.</p>
+              <h2>Changes</h2>
+              <p>If this policy changes, the new version will appear here with a new date.</p>
+
+<a class="back" href="./">Back to Reading</a>
+</main>
+<footer><a href="./">Reading ∙ mcbflow.com</a> · <a href="privacy.html">Privacy</a> · <a href="terms.html">Terms</a> · <a href="terms.html#credits">Credits</a> · <a href="https://mcbflow.com/">mcbflow.com</a></footer>
+</body>
+</html>

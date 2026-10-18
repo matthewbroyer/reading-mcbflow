@@ -1,6 +1,29 @@
 # Release notes · Reading (reading.mcbflow.com)
 
-Newest first. One entry per release, in plain words a user would understand. The full technical log is in CHANGELOG.md, and the same notes show in the app under Help › Release notes.
+Newest first. One entry per release, in plain words a user would understand. The full technical log is in CHANGELOG.md, and the same notes show in the app's What's new dialog (footer, About card, More).
+
+## 1.7 · 2026-10-17
+- **Search from the top bar** finds your books, quotes and pages, and can search inside your books. On a computer, press / or Ctrl+K. Library and Quotes keep their own filter boxes; inside a book, / still searches that book.
+- **A clearer Help page:** getting started in five steps, then answers grouped by topic (books and files, reading and listening, streaks and quotes, installing, your data). Release notes moved to What's new, and Privacy and Terms (with the credits) have their own pages.
+- **Light or Dark only.** Sepia and System are gone, in Settings and in the reader's Aa panel. If you used one of them, Reading now opens in Light; switch to Dark anytime.
+- **Deleting is quicker:** a book, a book's file, several selected books or a bookmark go right away, with Undo, instead of asking first.
+- **New here?** The welcome screen offers Start empty (the default) or Start with sample data, plus Find a book or Open a file. A notice on Home removes the sample in one click, with Undo.
+- **Backups and exports work even before you add a book**, and the message says what was saved. File names match the other apps: reading-backup-2026-10-17.json, reading-books-2026-10-17.csv, reading-backup-2026-10-17.zip; Save backup now keeps updating reading-backup.json. Older backups still import.
+- What's new, the More menu, messages and empty pages look and work the same as in the other mcbflow.com apps.
+- The Home banner reads "Your reading", with today's date and your pages so far. Chart month labels show the year (Apr '26).
+- Your books, files, notes, quotes and reading history are unchanged.
+
+Internal build 3.12.0.
+
+## 1.6 · 2026-10-17
+- Clear all data now asks you to type DELETE, the same in every mcbflow.com app. The same box offers to save a backup first and says whether your synced copy is deleted too.
+- Very long book titles, authors, genres and quotes no longer make the page scroll sideways on phones (Home, Library, a book's page, Quotes and Stats).
+- Account pop-up spacing fixed, and it fits on the screen on phones again.
+- Welcome banner art no longer cut off on phones.
+- The Log reading button in the middle of the phone bar now matches the Add button in the other mcbflow.com apps.
+- Your books, files, notes, quotes and reading history are unchanged.
+
+Internal build 3.11.0.
 
 ## 1.5 · 2026-10-16
 - New Settings page (gear icon): Appearance (theme, book typeface, darker PDF pages), Account & sync, Reading settings (goals, Daily Review), Backup & data, Install and About. Help (question-mark icon) now has its own page with the how-to, keyboard shortcuts, release notes, privacy and terms.
